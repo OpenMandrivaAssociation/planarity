@@ -14,6 +14,11 @@ Patch0:		%{name}-extern.patch
 Patch1:		%{name}-without_nauty.patch
 Patch2:		%{name}-malloc.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 This code project provides a library for implementing graph algorithms
 as well as implementations of several planarity-related graph algorithms.
